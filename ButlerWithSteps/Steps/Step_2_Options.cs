@@ -4,8 +4,8 @@ namespace ButlerWithSteps
 {
     public class Step_2_Options : Step
     {
-        private Step _option1;
-        private Step _option2;
+        private readonly Step _option1;
+        private readonly Step _option2;
 
         public Step_2_Options()
         {
